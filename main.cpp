@@ -45,11 +45,11 @@ int main()
 
 
   board[row][column] = turn;
-  if(turn == 'X'){
-turn = 'O';
+  if(turn == 'O'){
+turn = 'X';
 
   }else{
-turn = 'X';
+turn = 'O';
   }
 
 
