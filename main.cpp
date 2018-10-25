@@ -39,7 +39,7 @@ int main()
     else if( column < 0 || row < 0 || column > 2 || row > 2 )
     {
       cout<<"Values must be between 0 and 2.\n";
-    }
+    }else if(column>=0 && column <= 2 && row >= 0 && row <= 2){
     //TODO: Place the piece and swap turns
     //Outline
 
@@ -51,7 +51,7 @@ turn = 'X';
   }else{
 turn = 'O';
   }
-
+}
 
 
 
